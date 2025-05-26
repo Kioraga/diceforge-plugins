@@ -1,20 +1,5 @@
 {
   "label": "Rasgos de Clase & Subclase (SRD)",
-  "categories": {
-    "Barbarian": "Bárbaro",
-    "Bard": "Bardo",
-    "Cleric": "Clérigo",
-    "Druid": "Druida",
-    "Fighter": "Guerrero",
-    "Monk": "Monje",
-    "Paladin": "Paladín",
-    "Ranger": "Explorador",
-    "Rogue": "Pícaro",
-    "Sorcerer": "Hechicero",
-    "Warlock": "Brujo",
-    "Wizard": "Mago",
-    "Shared Features": "Rasgos Compartidos"
-  },
   "entries": {
     "Ability Score Improvement": {
       "name": "Mejora de característica",
@@ -26,7 +11,7 @@
     },
     "Additional Fighting Style": {
       "name": "Estilo de Combate Adicional",
-      "description": "<p>Puedes escoger una segunda opción del rasgo Estilo de Combate de entre las siguientes:</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Tiro con Arco}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Combate con Armas a Dos Manos}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Protección}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Combate con Dos Armas}</p><p>Debes elegir una distinta a la seleccionada en nivel 1.</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
+      "description": "<p>Puedes escoger una segunda opción del rasgo Estilo de Combate de entre las siguientes:</p><p>Tiro con Arco</p><p>Defensa</p><p>Duelo</p><p>Combate con Armas a Dos Manos</p><p>Protección</p><p>Combate con Dos Armas</p><p>Debes elegir una distinta a la seleccionada en nivel 1.</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
     },
     "Additional Magical Secrets": {
       "name": "Secretos Mágicos adicionales",
@@ -34,7 +19,7 @@
     },
     "Agonizing Blast": {
       "name": "Descarga Agónica",
-      "description": "<p>Cuando lanzas @UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga Sobrenatural}, sumas tu modificador por Carisma al daño infligido si impactas.</p>"
+      "description": "<p>Cuando lanzas Descarga Sobrenatural, sumas tu modificador por Carisma al daño infligido si impactas.</p>"
     },
     "Arcane Recovery": {
       "name": "Recuperación Arcana",
@@ -46,7 +31,7 @@
     },
     "Archdruid": {
       "name": "Archidruida",
-      "description": "<p>A nivel 20 puedes usar tu @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Salvaje} un número ilimitado de veces.</p><p>Además, puedes ignorar los componentes somáticos y verbales de tus conjuros de druida, así como aquellos componentes materiales que carezcan de un coste concreto y no sean consumidos al lanzar el conjuro.</p><p>Obtienes este beneficio tanto en tu forma normal como las formas de bestia del rasgo Forma Salvaje.</p>"
+      "description": "<p>A nivel 20 puedes usar tu Forma Salvaje un número ilimitado de veces.</p><p>Además, puedes ignorar los componentes somáticos y verbales de tus conjuros de druida, así como aquellos componentes materiales que carezcan de un coste concreto y no sean consumidos al lanzar el conjuro.</p><p>Obtienes este beneficio tanto en tu forma normal como las formas de bestia del rasgo Forma Salvaje.</p>"
     },
     "Archery": {
       "name": "Tiro con Arco",
@@ -54,11 +39,11 @@
     },
     "Armor of Shadows": {
       "name": "Armadura de Sombras",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{Armadura de Mago} sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
+      "description": "<p>Puedes lanzar Armadura de Mago sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
     },
     "Ascendant Step": {
       "name": "Paso Ascendente",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{Levitar} sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
+      "description": "<p>Puedes lanzar Levitar sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
     },
     "Aura of Courage": {
       "name": "Aura de Coraje",
@@ -78,15 +63,15 @@
     },
     "Bardic Inspiration": {
       "name": "Inspiración Bárdica",
-      "description": "<p>Puedes recurrir a tus palabras o a tu música, especialmente emotivas, para inspirar a las demás. Para hacer esto, deberás utilizar una acción adicional durante tu turno y elegir a una criatura que no seas tú, pueda oírte y esté a 60 pies o menos de ti. Dicho objetivo recibe un dado de Inspiración Bárdica, 1d6. Una sola vez, antes de que pasen 10 minutos, la criatura puede tirar el dado y añadir el resultado a una de sus pruebas de característica, tiradas de ataque o tiradas de salvación. Puede esperar a ver el resultado del d20 antes de elegir si usar el dado de Inspiración Bárdica, pero debe tomar la decisión antes de que el DM diga si la tirada tiene éxito o no. Una vez se tira el dado de Inspiración Bárdica, este se pierde. Además, cada criatura solo puede tener un dado de Inspiración Bárdica al mismo tiempo.</p><p>Puedes utilizar este rasgo tantas veces como tu modificador por Carisma (mínimo una vez).</p><p>Recuperas todos los usos tras finalizar un descanso largo.</p><p>Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de esta clase: pasa a ser 1d8 a nivel 5, 1d10 a nivel 10 y 1d12 a nivel 15.</p><p><em>**Notas de Foundry: Ten en cuenta que la fórmula de Otros está fijada en la base predeterminada de 1d6 y que los usos limitados están fijados en el mínimo de 1. Además, la recuperación está fijada en el descanso largo (para los niveles anteriores a @UUID[Compendium.dnd5e.classfeatures.Item.3VDZGs5Ug3hIE322]{Fuente de Inspiración}). Se deberá ajustar manualmente según sea necesario.</em></p>"
+      "description": "<p>Puedes recurrir a tus palabras o a tu música, especialmente emotivas, para inspirar a las demás. Para hacer esto, deberás utilizar una acción adicional durante tu turno y elegir a una criatura que no seas tú, pueda oírte y esté a 60 pies o menos de ti. Dicho objetivo recibe un dado de Inspiración Bárdica, 1d6. Una sola vez, antes de que pasen 10 minutos, la criatura puede tirar el dado y añadir el resultado a una de sus pruebas de característica, tiradas de ataque o tiradas de salvación. Puede esperar a ver el resultado del d20 antes de elegir si usar el dado de Inspiración Bárdica, pero debe tomar la decisión antes de que el DM diga si la tirada tiene éxito o no. Una vez se tira el dado de Inspiración Bárdica, este se pierde. Además, cada criatura solo puede tener un dado de Inspiración Bárdica al mismo tiempo.</p><p>Puedes utilizar este rasgo tantas veces como tu modificador por Carisma (mínimo una vez).</p><p>Recuperas todos los usos tras finalizar un descanso largo.</p><p>Tu dado de Inspiración Bárdica cambia cuando alcanzas ciertos niveles de esta clase: pasa a ser 1d8 a nivel 5, 1d10 a nivel 10 y 1d12 a nivel 15.</p><p><em>**Notas de Foundry: Ten en cuenta que la fórmula de Otros está fijada en la base predeterminada de 1d6 y que los usos limitados están fijados en el mínimo de 1. Además, la recuperación está fijada en el descanso largo (para los niveles anteriores a Fuente de Inspiración). Se deberá ajustar manualmente según sea necesario.</em></p>"
     },
     "Beast Speech": {
       "name": "Habla Bestial",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.aL1F8fvYLtNzUbKu]{Hablar con los Animales} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Hablar con los Animales a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Beast Spells": {
       "name": "Conjurar como Bestia",
-      "description": "<p>A partir de nivel 18, eres capaz de lanzar muchos conjuros de druida incluso cuando adoptas una de las formas del rasgo @UUID[Compendium.dnd5e.classfeatures.Item.swK0r5TOIxredxWS]{Forma Salvaje}. Puedes ejecutar los componentes somáticos y verbales de un conjuro de druida, aunque estés en forma de bestia, pero sigues sin poder proporcionar los componentes materiales.</p>"
+      "description": "<p>A partir de nivel 18, eres capaz de lanzar muchos conjuros de druida incluso cuando adoptas una de las formas del rasgo Forma Salvaje. Puedes ejecutar los componentes somáticos y verbales de un conjuro de druida, aunque estés en forma de bestia, pero sigues sin poder proporcionar los componentes materiales.</p>"
     },
     "Beguiling Influence": {
       "name": "Influencia Seductora",
@@ -94,7 +79,7 @@
     },
     "Bewitching Whispers": {
       "name": "Susurros Embrujados",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.P6f1PPKPd9BCb742]{Compulsión} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Compulsión una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Blessed Healer": {
       "name": "Sanador Bendito",
@@ -130,7 +115,7 @@
     },
     "Chains of Carceri": {
       "name": "Cadenas de Carceri",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.l9Ju5KE7bbn3WpTm]{Inmovilizar Monstruo} a voluntad sobre un celestial, un infernal o un elemental, sin tener que gastar un espacio de conjuro ni componentes materiales. Deberás terminar un descanso largo para poder usar esta invocación contra la misma criatura otra vez.</p>"
+      "description": "<p>Puedes lanzar Inmovilizar Monstruo a voluntad sobre un celestial, un infernal o un elemental, sin tener que gastar un espacio de conjuro ni componentes materiales. Deberás terminar un descanso largo para poder usar esta invocación contra la misma criatura otra vez.</p>"
     },
     "Channel Divinity": {
       "name": "Canalizar Divinidad",
@@ -154,7 +139,7 @@
     },
     "Circle Spells": {
       "name": "Conjuros de círculo",
-      "description": "<p>Tu conexión mística con la tierra te proporciona la habilidad para lanzar ciertos conjuros. Cuando alcanzas los niveles 3, 5, 7 y 9 accedes a los conjuros de círculo conectados al terreno en el que te convertiste en druida. Escoge un tipo de terreno (bosque, costa, desierto. montaña, pantano, pradera o polar) y consulta la lista de conjuros asociados.</p><p>Una vez accedes a ellos, estos conjuros siempre se considerarán preparados y no cuentan para el total de conjuros que puedes preparar cada día. Aunque accedas a un conjuro de Círculo que no aparezca en la lista de los de druida, para ti sí que se considerará como conjuro de druida.</p> <table border=\"1\"><caption> <h3>Polar</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4]{Inmovilizar persona}, @UUID[Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw]{Crecimiento espinoso}</td> </tr> <tr> <td>5 de</td> <td>@UUID[Compendium.dnd5e.spells.Item.dhqBY4TvVjxVmOZd]{Tormenta de aguanieve}, @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Ralentizar,}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertad de movimiento}, @UUID[Compendium.dnd5e.spells.Item.WN2LWEljYU6QqnRH]{Tormenta de hielo}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.d54VDyFulD9xxY7J]{Comunión con la naturaleza}, @UUID[Compendium.dnd5e.spells.Item.RpKjTlYASrfqUPVA]{Cono de frío}</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Costa</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{Imagen múltiple}, @UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{Paso brumoso}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.13uVuBQP6VaiSPvC]{Respirar bajo el agua}, @UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{Caminar sobre el agua}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.7fFHlBk3UNX8gPKL]{Controlar agua}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertad de movimiento}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjurar elemental}, @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Escudriñar}</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Desierto</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.UDUnlfPsOAbq2RSE]{Contorno borroso}, @UUID[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp]{Silencio}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.BV0mpbHh29IbbIj5]{Crear comida y agua}, @UUID[Compendium.dnd5e.spells.Item.j8NtLXOOJ3GAKF8I]{Protección contra energía}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.pybg5MNc3lkerH4Y]{Marchitar}, @UUID[Compendium.dnd5e.spells.Item.sTIkQK7KuQNOyY0C]{Terreno alucinatorio}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{Plaga de insectos}, @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Muro de piedra}</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Bosque</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.JPwIEfgUPVebr5AH]{Piel robliza}, @UUID[Compendium.dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{Trepar cual arácnido}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.ehvmg9U9fcMEhE4z]{Llamar al relámpago}, @UUID[Compendium.dnd5e.spells.Item.YWtwzp6ZnQJMEmVW]{Crecimiento vegetal}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{Adivinación}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertad de movimiento}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.dp6xny4v8PDoIGjh]{Comunión con la naturaleza}, @UUID[Compendium.dnd5e.spells.Item.DUBgwHPakcLDkB6W]{Paso arbóreo}</td> </tr> </tbody> </table> <h4></h4> <table border=\"1\"><caption> <h3>Pradera</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{Invisibilidad}, @UUID[Compendium.dnd5e.spells.Item.pRMvmknwLf2tdMTj]{Pasar sin rastro}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.BP3GCwa66IAw1yTG]{Luz del día}, @UUID[Compendium.dnd5e.spells.Item.Szvk5FEVQW3uhJi5]{Acelerar}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.XqzXSKNR75ZdYTA9]{Adivinación}, @UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertad de movimiento}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.kSPRpeIx3w3nihrF]{Ensueño}, @UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{Plaga de insectos}</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Montaña</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{Trepar cual arácnido}, @UUID[Compendium.dnd5e.spells.Item.9gYGkrL6qFTsE6fw]{Crecimiento espinoso}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ]{Relámpago}, @UUID[Compendium.dnd5e.spells.Item.64uo4fHriHLjRUrX]{Fundirse con la piedra}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.QvGcdRUSNRKEQJlK]{Moldear la piedra}, @UUID[Compendium.dnd5e.spells.Item.ReMbjfeOKoSj3O79]{Piel pétrea}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.d9MwcXi7Il3HROXd]{Pasamuros}, @UUID[Compendium.dnd5e.spells.Item.NmoRmM1mhuM3pqnY]{Muro de piedra}</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Pantano</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>@UUID[Compendium.dnd5e.spells.Item.4H6YgYdKgnX6ZQ8M]{Flecha ácida}, @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{Oscuridad}</td> </tr> <tr> <td>5</td> <td>@UUID[Compendium.dnd5e.spells.Item.YBda6nLKjxdT1LbS]{Caminar sobre el agua}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Nube apestosa}</td> </tr> <tr> <td>7</td> <td>@UUID[Compendium.dnd5e.spells.Item.da0a1t2FqaTjRZGT]{Libertad de movimiento}, @UUID[Compendium.dnd5e.spells.Item.gXtzz9t1DTzJeLr4]{Localizar criatura}</td> </tr> <tr> <td>9</td> <td>@UUID[Compendium.dnd5e.spells.Item.OVikYmSdHliAG2YD]{Plaga de insectos}, @UUID[Compendium.dnd5e.spells.Item.fVbCxFRaORalHB20]{Escudriñar}</td> </tr> </tbody> </table>"
+      "description": "<p>Tu conexión mística con la tierra te proporciona la habilidad para lanzar ciertos conjuros. Cuando alcanzas los niveles 3, 5, 7 y 9 accedes a los conjuros de círculo conectados al terreno en el que te convertiste en druida. Escoge un tipo de terreno (bosque, costa, desierto. montaña, pantano, pradera o polar) y consulta la lista de conjuros asociados.</p><p>Una vez accedes a ellos, estos conjuros siempre se considerarán preparados y no cuentan para el total de conjuros que puedes preparar cada día. Aunque accedas a un conjuro de Círculo que no aparezca en la lista de los de druida, para ti sí que se considerará como conjuro de druida.</p> <table border=\"1\"><caption> <h3>Polar</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Inmovilizar persona, Crecimiento espinoso</td> </tr> <tr> <td>5 de</td> <td>Tormenta de aguanieve, Ralentizar,</td> </tr> <tr> <td>7</td> <td>Libertad de movimiento, Tormenta de hielo</td> </tr> <tr> <td>9</td> <td>Comunión con la naturaleza, Cono de frío</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Costa</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Imagen múltiple, Paso brumoso</td> </tr> <tr> <td>5</td> <td>Respirar bajo el agua, Caminar sobre el agua</td> </tr> <tr> <td>7</td> <td>Controlar agua, Libertad de movimiento</td> </tr> <tr> <td>9</td> <td>Conjurar elemental, Escudriñar</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Desierto</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Contorno borroso, Silencio</td> </tr> <tr> <td>5</td> <td>Crear comida y agua, Protección contra energía</td> </tr> <tr> <td>7</td> <td>Marchitar, Terreno alucinatorio</td> </tr> <tr> <td>9</td> <td>Plaga de insectos, Muro de piedra</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Bosque</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Piel robliza, Trepar cual arácnido</td> </tr> <tr> <td>5</td> <td>Llamar al relámpago, Crecimiento vegetal</td> </tr> <tr> <td>7</td> <td>Adivinación, Libertad de movimiento</td> </tr> <tr> <td>9</td> <td>Comunión con la naturaleza, Paso arbóreo</td> </tr> </tbody> </table> <h4></h4> <table border=\"1\"><caption> <h3>Pradera</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Invisibilidad, Pasar sin rastro</td> </tr> <tr> <td>5</td> <td>Luz del día, Acelerar</td> </tr> <tr> <td>7</td> <td>Adivinación, Libertad de movimiento</td> </tr> <tr> <td>9</td> <td>Ensueño, Plaga de insectos</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Montaña</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Trepar cual arácnido, Crecimiento espinoso</td> </tr> <tr> <td>5</td> <td>Relámpago, Fundirse con la piedra</td> </tr> <tr> <td>7</td> <td>Moldear la piedra, Piel pétrea</td> </tr> <tr> <td>9</td> <td>Pasamuros, Muro de piedra</td> </tr> </tbody> </table> <table border=\"1\"><caption> <h3>Pantano</h3> </caption> <thead> <tr> <td><strong>Nivel de druida</strong></td> <td><strong>Conjuro de círculo</strong></td> </tr> </thead> <tbody> <tr> <td>3</td> <td>Flecha ácida, Oscuridad</td> </tr> <tr> <td>5</td> <td>Caminar sobre el agua, Nube apestosa</td> </tr> <tr> <td>7</td> <td>Libertad de movimiento, Localizar criatura</td> </tr> <tr> <td>9</td> <td>Plaga de insectos, Escudriñar</td> </tr> </tbody> </table>"
     },
     "Cleansing Touch": {
       "name": "Toque Purificador",
@@ -174,7 +159,7 @@
     },
     "Cutting Words": {
       "name": "Palabras Cortantes",
-      "description": "<p>También a nivel 3, aprendes cómo usar tu astucia para distraer, confundir y minar la confianza y aptitudes de otros.</p><p>Cuando una criatura que puedas ver a 60 pies o menos de ti haga una tirada de ataque, prueba de característica o tirada de daño, podrás emplear tu reacción y gastar uno de los usos de @UUID[Compendium.dnd5e.classfeatures.Item.EeGafsa17CapsH2j]{Inspiración Bárdica} para tirar el dado de Inspiración Bárdica y restar el número obtenido del resultado de la tirada de la criatura.</p><p>Puedes elegir utilizar este rasgo después de que la criatura haga su tirada, pero antes de que el DM indique si la tirada de ataque o prueba de característica ha tenido éxito, o la criatura cause el daño. Las criaturas que no puedan oírte o sean inmunes al estado “hechizado” no pueden verse afectadas por este rasgo.</p>"
+      "description": "<p>También a nivel 3, aprendes cómo usar tu astucia para distraer, confundir y minar la confianza y aptitudes de otros.</p><p>Cuando una criatura que puedas ver a 60 pies o menos de ti haga una tirada de ataque, prueba de característica o tirada de daño, podrás emplear tu reacción y gastar uno de los usos de Inspiración Bárdica para tirar el dado de Inspiración Bárdica y restar el número obtenido del resultado de la tirada de la criatura.</p><p>Puedes elegir utilizar este rasgo después de que la criatura haga su tirada, pero antes de que el DM indique si la tirada de ataque o prueba de característica ha tenido éxito, o la criatura cause el daño. Las criaturas que no puedan oírte o sean inmunes al estado “hechizado” no pueden verse afectadas por este rasgo.</p>"
     },
     "Danger Sense": {
       "name": "Sentir el Peligro",
@@ -194,15 +179,15 @@
     },
     "Defensive Tactics": {
       "name": "Tácticas Defensivas",
-      "description": "<p>A nivel 7 obtienes uno de los siguientes rasgos, a tu elección.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.slelvrm83v9UAKZU]{Defensa Contra Ataques Multiples}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.pAQMJU5R9SGUmzHU]{Escapar de la Horda}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zbHu0NvHuII8lR7W]{Voluntad de Acero}</p><p>**Nota de Foundry: Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
+      "description": "<p>A nivel 7 obtienes uno de los siguientes rasgos, a tu elección.</p><p>Defensa Contra Ataques Multiples</p><p>Escapar de la Horda</p><p>Voluntad de Acero</p><p>**Nota de Foundry: Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
     },
     "Deflect Missiles": {
       "name": "Desviar Proyectiles",
-      "description": "<p>A partir de nivel 3, puedes usar tu reacción para desviar o atrapar el proyectil de un ataque con arma a distancia que te haya impactado. Si haces esto, el daño que recibes del ataque se reduce en 1d10 + tu modificador por Destreza + tu nivel de monje.</p><p>Si disminuyes el daño a 0 podrás atrapar el proyectil, siempre y cuando este sea lo bastante pequeño como para que puedas sujetarlo con una mano y tengas al menos una mano libre. Si atrapas el proyectil, puedes gastar 1 punto de @UUID[Compendium.dnd5e.classfeatures.Item.10b6z2W1txNkrGP7]{Ki} para, como parte de la misma reacción, realizar un ataque a distancia con el arma o unidad de munición que acabas de atrapar. Haces este ataque como si fueras competente, independientemente de tus competencias con armas, y el proyectil cuenta como un arma de monje a efectos del ataque, que tiene un alcance normal de 20 pies y un alcance largo de 60 pies.</p><p><em>**Nota de Foundry: Ten en cuenta que el dado de reducción se calcula en Otra fórmula. Además, el dado de daño para un ataque lanzado es su base por defecto de 1d4. Ajústalo manualmente según sea necesario.</em></p>"
+      "description": "<p>A partir de nivel 3, puedes usar tu reacción para desviar o atrapar el proyectil de un ataque con arma a distancia que te haya impactado. Si haces esto, el daño que recibes del ataque se reduce en 1d10 + tu modificador por Destreza + tu nivel de monje.</p><p>Si disminuyes el daño a 0 podrás atrapar el proyectil, siempre y cuando este sea lo bastante pequeño como para que puedas sujetarlo con una mano y tengas al menos una mano libre. Si atrapas el proyectil, puedes gastar 1 punto de Ki para, como parte de la misma reacción, realizar un ataque a distancia con el arma o unidad de munición que acabas de atrapar. Haces este ataque como si fueras competente, independientemente de tus competencias con armas, y el proyectil cuenta como un arma de monje a efectos del ataque, que tiene un alcance normal de 20 pies y un alcance largo de 60 pies.</p><p><em>**Nota de Foundry: Ten en cuenta que el dado de reducción se calcula en Otra fórmula. Además, el dado de daño para un ataque lanzado es su base por defecto de 1d4. Ajústalo manualmente según sea necesario.</em></p>"
     },
     "Destroy Undead": {
       "name": "Destruir Muertos Vivientes",
-      "description": "<p>A partir de nivel 5, cuando un muerto viviente falle la tirada de salvación contra tu rasgo @UUID[Compendium.dnd5e.classfeatures.Item.r91UIgwFdHwkXdia]{Expulsar Muertos Vivientes}, la criatura será destruida instantáneamente si su valor de desafío es igual o inferior al de un umbral determinado, que se muestra en la siguiente tabla.</p><table border=\"1\"><tbody><tr><td><strong>Nivel de clérigo</strong></td><td><strong>Destruye muertos vivientes de VD...</strong></td></tr><tr><td>5</td><td>1/2 o inferior</td></tr><tr><td>8</td><td>1 o inferior</td></tr><tr><td>11</td><td>2 o inferior</td></tr><tr><td>14</td><td>3 o inferior</td></tr><tr><td>17</td><td>4 o inferior</td></tr></tbody></table>"
+      "description": "<p>A partir de nivel 5, cuando un muerto viviente falle la tirada de salvación contra tu rasgo Expulsar Muertos Vivientes, la criatura será destruida instantáneamente si su valor de desafío es igual o inferior al de un umbral determinado, que se muestra en la siguiente tabla.</p><table border=\"1\"><tbody><tr><td><strong>Nivel de clérigo</strong></td><td><strong>Destruye muertos vivientes de VD...</strong></td></tr><tr><td>5</td><td>1/2 o inferior</td></tr><tr><td>8</td><td>1 o inferior</td></tr><tr><td>11</td><td>2 o inferior</td></tr><tr><td>14</td><td>3 o inferior</td></tr><tr><td>17</td><td>4 o inferior</td></tr></tbody></table>"
     },
     "Devil's Sight": {
       "name": "Vista del Diablo",
@@ -234,7 +219,7 @@
     },
     "Divine Sense": {
       "name": "Sentidos Divinos",
-      "description": "<p>La presencia de un fuerte mal se manifiesta en tus sentidos como un hedor nauseabundo, mientras que un poderoso bien resuena en tus oídos como música celestial. Como acción, puedes expandir tu percepción para detectar estas fuerzas. Hasta el final de tu siguiente turno, sabrás la ubicación de cualquier celestial, infernal o muerto viviente a 60 pies o menos de ti que no se encuentre tras cobertura completa. Conocerás el tipo (celestial, infernal o muerto viviente) de cualquier ser cuya presencia puedas percibir, pero no su identidad (el conde vampiro Strahd von Zarovich, por ejemplo). Dentro de esa misma distancia también podrás detectar la presencia de cualquier lugar u objeto que haya sido consagrado o profanado, como con el conjuro @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{consagrar}.</p><p>Puedes emplear este rasgo tantas veces como 1 + tu modificador por Carisma. Recuperas todos los usos tras finalizar un descanso largo.</p><p><em>**Nota de Foundry: Ten en cuenta que los usos limitados están establecidos por defecto en 1 por descanso largo. Ajústalo manualmente según sea necesario.</em></p>"
+      "description": "<p>La presencia de un fuerte mal se manifiesta en tus sentidos como un hedor nauseabundo, mientras que un poderoso bien resuena en tus oídos como música celestial. Como acción, puedes expandir tu percepción para detectar estas fuerzas. Hasta el final de tu siguiente turno, sabrás la ubicación de cualquier celestial, infernal o muerto viviente a 60 pies o menos de ti que no se encuentre tras cobertura completa. Conocerás el tipo (celestial, infernal o muerto viviente) de cualquier ser cuya presencia puedas percibir, pero no su identidad (el conde vampiro Strahd von Zarovich, por ejemplo). Dentro de esa misma distancia también podrás detectar la presencia de cualquier lugar u objeto que haya sido consagrado o profanado, como con el conjuro consagrar.</p><p>Puedes emplear este rasgo tantas veces como 1 + tu modificador por Carisma. Recuperas todos los usos tras finalizar un descanso largo.</p><p><em>**Nota de Foundry: Ten en cuenta que los usos limitados están establecidos por defecto en 1 por descanso largo. Ajústalo manualmente según sea necesario.</em></p>"
     },
     "Divine Smite": {
       "name": "Castigo Divino",
@@ -262,7 +247,7 @@
     },
     "Dreadful Word": {
       "name": "Palabra Aterradora",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{Confusión} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Confusión una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Druid Circle": {
       "name": "Circulo Druídico",
@@ -278,7 +263,7 @@
     },
     "Eldritch Invocations": {
       "name": "Invocaciones Sobrenaturales",
-      "description": "<p>Durante tu estudio de lo oculto, has desenterrado invocaciones sobrenaturales: fragmentos de conocimiento prohibido que te imbuyen de una capacidad mágica perpetua.</p><p>A nivel 2, obtienes dos invocaciones sobrenaturales a tu elección. Las invocaciones entre las que puedes elegir están detalladas al final de la descripción de esta clase. Podrás escoger más invocaciones sobrenaturales cuando subas a niveles de brujo más altos, como se indica en la columna “invocaciones conocidas” de la tabla del brujo.</p><p>Además, cada vez que subas un nivel de esta clase podrás elegir una de las invocaciones que ya conoces y reemplazarla por otra que puedas aprender a tu nuevo nivel.</p><h3>Invocaciones Sobrenaturales</h3><p>Si una invocación sobrenatural tiene algún requisito previo, debes cumplir con él para poder aprenderla, aunque puedes satisfacer estos requisitos al mismo tiempo que adquieres la invocación. Cualquier requisito que haga referencia a un nivel se referirá únicamente a niveles en esta clase.</p><table border=\"1\"><thead><tr><td colspan=\"2\">Requisitos</td><td rowspan=\"2\">Invocación</td></tr><tr><td>Nivel de Clase</td><td>Otros</td></tr></thead><tbody><tr><td rowspan=\"16\">2</td><td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga sobrenatural}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.2fyuw7MiCnocDeAU]{Descarga Agónica}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.alUqO6c6OEKFQJdb]{Capa de Sombras}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.61kXR1sniXHjvN17]{Habla Bestial}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.eNvpIaSnJUdF8fHl]{Influencia Seductora}</td></tr><tr><td>@UUID[Compendium.dnd5e.classfeatures.Item.MYM908WLZ1lVvA1u]{Pacto del Grimorio}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.CFIYXDmbmSP8BXjN]{Libro de los Secretos Ancestrales}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.3sN91lT1R3oxcDKd]{Vista del Diablo}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.bbUEsCPTLzbbwK6o]{Visión Sobrenatural}</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga sobrenatural}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.r01WtcxTg4yTHm9m]{Lanza Sobrenatural}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.lEZKbWaVrSljRa9n]{Ojos del Guardián de las Runas}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.id0gmGvzNZBEdzbx]{Vigor Infernal}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.65ReXU4ZWqcSs3Cm]{Mirada de las Dos Mentes}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.MhJfdBl1B7PdU4oZ]{Máscara de los Mil Rostros}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.k5DU0mMuYVHejiqz]{Visiones Brumosas}</td></tr><tr><td>@UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga sobrenatural}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.rdBPd6CwqXT64iJM]{Descarga Ahuyentadora}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.rhbwDZ9XNTmdkX2u]{Ladrón de los Cinco Destinos}</td></tr><tr><td>@UUID[Compendium.dnd5e.classfeatures.Item.Ic1CSjvbWKudVUv9]{Pacto de la Cadena}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.k5M8gsl7MMcdjOjs]{Voz del Amo de la Cadena}</td></tr><tr><td rowspan=\"4\">5</td><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.DjXi0IkCTbJx1gsp]{Enfangar la Muerte}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.KfnUyjUWAk0bAAus]{Uno con las Sombras}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.dTSV0xZMpY5CxkRk]{Marca del Mal Augurio}</td></tr><tr><td>@UUID[Compendium.dnd5e.classfeatures.Item.9dSSa68mIPoX2ezA]{Pacto del Filo}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.pJADgAxxefgcATWr]{Filo Sediento}</td></tr><tr><td rowspan=\"3\">7</td><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.KygHql3cTj4IRrvZ]{Susurros Embrujados}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QBk1RsuTIEF4GEBC]{Palabra Aterradora}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Xa2MLUJGCReJ28B7]{Escultor de Carne}</td></tr><tr><td rowspan=\"4\">9</td><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QEuH5TeBN4PPYT2g]{Paso Ascendente}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.QnRKYXb2bXpnNd2k]{Esbirros del Caos}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.8zciiglzEOZo7DDN]{Salto Sobrenatural}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.gFjxo01hAN4c9hDG]{Susurros del Sepulcro}</td></tr><tr><td>12</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.9dSSa68mIPoX2ezA]{Pacto del Filo}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zUIAzBnyt0NDvVXb]{Devorador de Vida}</td></tr><tr><td rowspan=\"4\">15</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Ic1CSjvbWKudVUv9]{Pacto de la Cadena}</td><td>@UUID[Compendium.dnd5e.classfeatures.Item.Phy02H5x0TKHd7T3]{Cadenas de Carceri}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.lxfdjLer3uKjyZqU]{Maestro de las Formas Innumerables}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.zYIdNAjqRyhS6qWs]{Visiones de Reinos Remotos}</td></tr><tr><td></td><td>@UUID[Compendium.dnd5e.classfeatures.Item.snsjxGfmzWfZR5Nh]{Visión Bruja}</td></tr></tbody></table><p><em>**Nota de Foundry: Puedes arrastrar tus elecciones a la hoja de personaje y se actualizará automáticamente.</em></p>"
+      "description": "<p>Durante tu estudio de lo oculto, has desenterrado invocaciones sobrenaturales: fragmentos de conocimiento prohibido que te imbuyen de una capacidad mágica perpetua.</p><p>A nivel 2, obtienes dos invocaciones sobrenaturales a tu elección. Las invocaciones entre las que puedes elegir están detalladas al final de la descripción de esta clase. Podrás escoger más invocaciones sobrenaturales cuando subas a niveles de brujo más altos, como se indica en la columna “invocaciones conocidas” de la tabla del brujo.</p><p>Además, cada vez que subas un nivel de esta clase podrás elegir una de las invocaciones que ya conoces y reemplazarla por otra que puedas aprender a tu nuevo nivel.</p><h3>Invocaciones Sobrenaturales</h3><p>Si una invocación sobrenatural tiene algún requisito previo, debes cumplir con él para poder aprenderla, aunque puedes satisfacer estos requisitos al mismo tiempo que adquieres la invocación. Cualquier requisito que haga referencia a un nivel se referirá únicamente a niveles en esta clase.</p><table border=\"1\"><thead><tr><td colspan=\"2\">Requisitos</td><td rowspan=\"2\">Invocación</td></tr><tr><td>Nivel de Clase</td><td>Otros</td></tr></thead><tbody><tr><td rowspan=\"16\">2</td><td>Descarga sobrenatural</td><td>Descarga Agónica</td></tr><tr><td></td><td>Capa de Sombras</td></tr><tr><td></td><td>Habla Bestial</td></tr><tr><td></td><td>Influencia Seductora</td></tr><tr><td>Pacto del Grimorio</td><td>Libro de los Secretos Ancestrales</td></tr><tr><td></td><td>Vista del Diablo</td></tr><tr><td></td><td>Visión Sobrenatural</td></tr><tr><td>Descarga sobrenatural</td><td>Lanza Sobrenatural</td></tr><tr><td></td><td>Ojos del Guardián de las Runas</td></tr><tr><td></td><td>Vigor Infernal</td></tr><tr><td></td><td>Mirada de las Dos Mentes</td></tr><tr><td></td><td>Máscara de los Mil Rostros</td></tr><tr><td></td><td>Visiones Brumosas</td></tr><tr><td>Descarga sobrenatural</td><td>Descarga Ahuyentadora</td></tr><tr><td></td><td>Ladrón de los Cinco Destinos</td></tr><tr><td>Pacto de la Cadena</td><td>Voz del Amo de la Cadena</td></tr><tr><td rowspan=\"4\">5</td><td></td><td>Enfangar la Muerte</td></tr><tr><td></td><td>Uno con las Sombras</td></tr><tr><td></td><td>Marca del Mal Augurio</td></tr><tr><td>Pacto del Filo</td><td>Filo Sediento</td></tr><tr><td rowspan=\"3\">7</td><td></td><td>Susurros Embrujados</td></tr><tr><td></td><td>Palabra Aterradora</td></tr><tr><td></td><td>Escultor de Carne</td></tr><tr><td rowspan=\"4\">9</td><td></td><td>Paso Ascendente</td></tr><tr><td></td><td>Esbirros del Caos</td></tr><tr><td></td><td>Salto Sobrenatural</td></tr><tr><td></td><td>Susurros del Sepulcro</td></tr><tr><td>12</td><td>Pacto del Filo</td><td>Devorador de Vida</td></tr><tr><td rowspan=\"4\">15</td><td>Pacto de la Cadena</td><td>Cadenas de Carceri</td></tr><tr><td></td><td>Maestro de las Formas Innumerables</td></tr><tr><td></td><td>Visiones de Reinos Remotos</td></tr><tr><td></td><td>Visión Bruja</td></tr></tbody></table><p><em>**Nota de Foundry: Puedes arrastrar tus elecciones a la hoja de personaje y se actualizará automáticamente.</em></p>"
     },
     "Eldritch Master": {
       "name": "Maestro Sobrenatural",
@@ -286,11 +271,11 @@
     },
     "Eldritch Sight": {
       "name": "Visión Sobrenatural",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{Detectar Magia} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Detectar Magia a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Eldritch Spear": {
       "name": "Lanza Sobrenatural",
-      "description": "<p>Cuando lanzas @UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga Sobrenatural}, su alcance es de 300 pies.</p>"
+      "description": "<p>Cuando lanzas Descarga Sobrenatural, su alcance es de 300 pies.</p>"
     },
     "Elemental Affinity": {
       "name": "Afinidad Elemental",
@@ -310,7 +295,7 @@
     },
     "Empty Body": {
       "name": "Cuerpo Vacío",
-      "description": "<p>A partir del nivel 18, puedes usar tu acción y gastar 4 puntos de ki para volverte invisible durante 1 minuto. Durante ese tiempo, también tendrás resistencia a todo el daño excepto el de fuerza.</p><p>Asimismo, puedes gastar 8 puntos de ki para lanzar el conjuro @UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{Proyección Astral} sin necesidad de componentes materiales. Cuando lo hagas, no podrás llevar contigo a ninguna otra criatura.</p>"
+      "description": "<p>A partir del nivel 18, puedes usar tu acción y gastar 4 puntos de ki para volverte invisible durante 1 minuto. Durante ese tiempo, también tendrás resistencia a todo el daño excepto el de fuerza.</p><p>Asimismo, puedes gastar 8 puntos de ki para lanzar el conjuro Proyección Astral sin necesidad de componentes materiales. Cuando lo hagas, no podrás llevar contigo a ninguna otra criatura.</p>"
     },
     "Escape the Horde": {
       "name": "Escapar de la Horda",
@@ -326,7 +311,7 @@
     },
     "Expanded Spell List": {
       "name": "Lista de Conjuros Ampliada",
-      "description": "<p>El Infernal te permite elegir de entre una lista de conjuros ampliada cada vez que aprendes un conjuro de brujo. Los siguientes conjuros también forman parte de tu lista de conjuros de brujo.</p><table border=\"1\"><caption>Conjuros adicionales del Infernal</caption><thead><tr><td><strong>Nivel de Conjuro</strong></td><td><strong>Conjuros</strong></td></tr></thead><tbody><tr><td>1</td><td>@UUID[Compendium.dnd5e.spells.Item.5SuJewoa1CRWaj1F]{Manos ardientes}, @UUID[Compendium.dnd5e.spells.Item.arzCrMRgcNiQuh43]{Orden imperiosa}</td></tr><tr><td>2</td><td>@UUID[Compendium.dnd5e.spells.Item.zwGsAv6kmwzYGhh3]{Sordera/Ceguera}, @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Rayo abrasador}</td></tr><tr><td>3</td><td>@UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{Bola de fuego}, @UUID[Compendium.dnd5e.spells.Item.TwlD4PLcltv7Xh7j]{Nube apestosa}</td></tr><tr><td>4</td><td>@UUID[Compendium.dnd5e.spells.Item.avD5XUtkBPQQR97c]{Escudo de fuego}, @UUID[Compendium.dnd5e.spells.Item.X3DrXgxjwI2dvkD6]{Muro de fuego}</td></tr><tr><td>5</td><td>@UUID[Compendium.dnd5e.spells.Item.5e1xTohkzqFqbYH4]{Golpe flamígero}, @UUID[Compendium.dnd5e.spells.Item.SLxA9QhrggTz0taU]{Consagrar}</td></tr></tbody></table>"
+      "description": "<p>El Infernal te permite elegir de entre una lista de conjuros ampliada cada vez que aprendes un conjuro de brujo. Los siguientes conjuros también forman parte de tu lista de conjuros de brujo.</p><table border=\"1\"><caption>Conjuros adicionales del Infernal</caption><thead><tr><td><strong>Nivel de Conjuro</strong></td><td><strong>Conjuros</strong></td></tr></thead><tbody><tr><td>1</td><td>Manos ardientes, Orden imperiosa</td></tr><tr><td>2</td><td>Sordera/Ceguera, Rayo abrasador</td></tr><tr><td>3</td><td>Bola de fuego, Nube apestosa</td></tr><tr><td>4</td><td>Escudo de fuego, Muro de fuego</td></tr><tr><td>5</td><td>Golpe flamígero, Consagrar</td></tr></tbody></table>"
     },
     "Expertise": {
       "name": "Pericia",
@@ -346,7 +331,7 @@
     },
     "Fast Hands": {
       "name": "Manos Rápidas",
-      "description": "<p>A partir de nivel 3, puedes utilizar la acción adicional que obtuviste de @UUID[Compendium.dnd5e.classfeatures.Item.01pcLg6PRu5zGrsb]{Acción Astuta} para hacer una prueba de Destreza (Juego de Manos), realizar una acción de Usar un Objeto o usar tus herramientas de ladrón para intentar desarmar una trampa o forzar una cerradura.</p>"
+      "description": "<p>A partir de nivel 3, puedes utilizar la acción adicional que obtuviste de Acción Astuta para hacer una prueba de Destreza (Juego de Manos), realizar una acción de Usar un Objeto o usar tus herramientas de ladrón para intentar desarmar una trampa o forzar una cerradura.</p>"
     },
     "Fast Movement": {
       "name": "Movimiento Rápido",
@@ -370,11 +355,11 @@
     },
     "Fiendish Vigor": {
       "name": "Vigor Infernal",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.7e3QXF10hLNDEdr6]{Falsa Vida} sobre ti mismo a voluntad como un conjuro de nivel 1, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
+      "description": "<p>Puedes lanzar Falsa Vida sobre ti mismo a voluntad como un conjuro de nivel 1, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
     },
     "Fighting Style": {
       "name": "Estilo de Combate",
-      "description": "<p>Adoptas un estilo de combate concreto como tu especialidad. Elige una de las siguientes opciones que aparecen a continuación. No puedes escoger el mismo Estilo de Combate más de una vez, incluso aunque luego puedas elegir de nuevo un Estilo de Combate.</p><h3>Opciones de Guerrero</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Combate con Armas a Dos Manos}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Combate con Dos Armas}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Protección}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Tiro con Arco}</p><h3>Opciones de Paladín</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.3Nc6u9pyStByuJsm]{Combate con Armas a Dos Manos}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.06NVMYf58Z76O85O]{Protección}</p><h3>Opciones de Explorador</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.8YwPFv3UAPjWVDNf]{Tiro con Arco}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.zSlV0O2rQMdoq6pB]{Defensa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.hCop9uJrWhF1QPb4]{Duelo}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.mHcSjcHJ8oZu3hkb]{Combate con Dos Armas}</p>"
+      "description": "<p>Adoptas un estilo de combate concreto como tu especialidad. Elige una de las siguientes opciones que aparecen a continuación. No puedes escoger el mismo Estilo de Combate más de una vez, incluso aunque luego puedas elegir de nuevo un Estilo de Combate.</p><h3>Opciones de Guerrero</h3><p>Combate con Armas a Dos Manos</p><p>Combate con Dos Armas</p><p>Defensa</p><p>Duelo</p><p>Protección</p><p>Tiro con Arco</p><h3>Opciones de Paladín</h3><p>Defensa</p><p>Duelo</p><p>Combate con Armas a Dos Manos</p><p>Protección</p><h3>Opciones de Explorador</h3><p>Tiro con Arco</p><p>Defensa</p><p>Duelo</p><p>Combate con Dos Armas</p>"
     },
     "Flurry of Blows": {
       "name": "Ráfaga de Golpes",
@@ -386,7 +371,7 @@
     },
     "Font of Inspiration": {
       "name": "Fuente de Inspiración",
-      "description": "<p>A partir de nivel 5, recuperas todos los usos de @UUID[Compendium.dnd5e.classfeatures.Item.hpLNiGq7y67d2EHA]{Inspiración Bárdica} tras hacer un descanso corto o largo.</p><p>**Nota de Foundry: Ten en cuenta que la Inspiración Bárdica está establecida por defecto que se recupera tras un descanso largo. Edítalo a descanso corto cuando alcances este nivel.</p>"
+      "description": "<p>A partir de nivel 5, recuperas todos los usos de Inspiración Bárdica tras hacer un descanso corto o largo.</p><p>**Nota de Foundry: Ten en cuenta que la Inspiración Bárdica está establecida por defecto que se recupera tras un descanso largo. Edítalo a descanso corto cuando alcances este nivel.</p>"
     },
     "Font of Magic": {
       "name": "Fuente de Magia",
@@ -394,7 +379,7 @@
     },
     "Frenzy": {
       "name": "Frenesí",
-      "description": "<p>A partir del momento en el que escoges esta senda, a nivel 3, puedes abandonarte al frenesí cuando te @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Enfurezcas}. Si eliges hacer esto, mientras estés enfurecido podrás hacer un ataque con arma cuerpo a cuerpo como acción adicional durante cada uno de tus turnos (empezando por el siguiente a haberte enfurecido). A cambio, cuando tu furia termine sufrirás un nivel de cansancio (como se describe en el apéndice A).</p>"
+      "description": "<p>A partir del momento en el que escoges esta senda, a nivel 3, puedes abandonarte al frenesí cuando te Enfurezcas. Si eliges hacer esto, mientras estés enfurecido podrás hacer un ataque con arma cuerpo a cuerpo como acción adicional durante cada uno de tus turnos (empezando por el siguiente a haberte enfurecido). A cambio, cuando tu furia termine sufrirás un nivel de cansancio (como se describe en el apéndice A).</p>"
     },
     "Gaze of Two Minds": {
       "name": "Mirada de las Dos Mentes",
@@ -430,7 +415,7 @@
     },
     "Hunter's Prey": {
       "name": "El Cazador y la Presa",
-      "description": "<p>A nivel 3 obtienes uno de los siguientes rasgos, a tu elección:</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.StfmqK1twVfukpa0]{Asesino de Gigantes}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.5gx1O0sxK08awEO9]{Azote de Colosos}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.C6sHdDGmCMo0cYHd]{Destructor de Hordas}</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
+      "description": "<p>A nivel 3 obtienes uno de los siguientes rasgos, a tu elección:</p><p>Asesino de Gigantes</p><p>Azote de Colosos</p><p>Destructor de Hordas</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
     },
     "Hurl Through Hell": {
       "name": "Arrastrar por el Infierno",
@@ -442,7 +427,7 @@
     },
     "Improved Divine Smite": {
       "name": "Castigo Divino Mejorado",
-      "description": "<p>A nivel 11 estás tan bañado en el poder de la virtud que todos los golpes de tus armas cuerpo a cuerpo llevan consigo una fuerza divina.</p><p>Siempre que impactes a una criatura con un ataque cuerpo a cuerpo, este infligirá 1d8 de daño radiante adicional. Si usas tu @UUID[Compendium.dnd5e.classfeatures.Item.ySMPQ6zNSlvkrl2f]{Castigo Divino} con el ataque, agregas este daño al daño extra de tu Castigo Divino.</p>"
+      "description": "<p>A nivel 11 estás tan bañado en el poder de la virtud que todos los golpes de tus armas cuerpo a cuerpo llevan consigo una fuerza divina.</p><p>Siempre que impactes a una criatura con un ataque cuerpo a cuerpo, este infligirá 1d8 de daño radiante adicional. Si usas tu Castigo Divino con el ataque, agregas este daño al daño extra de tu Castigo Divino.</p>"
     },
     "Indomitable": {
       "name": "Indómito",
@@ -462,7 +447,7 @@
     },
     "Ki": {
       "name": "Ki",
-      "description": "<p>A partir de nivel 2, tu entrenamiento te permite controlar la energía mística llamada ki. Tu capacidad de emplearla se representa mediante una serie de puntos de ki. Tu nivel de monje determina cuántos de estos puntos posees. Así, un monje de nivel 2 tendrá 2 puntos de ki y a nivel 16, 16 puntos de ki.</p><p>Puedes utilizar estos puntos para alimentar varios rasgos ki. Empiezas con tres de estos rasgos: @UUID[Compendium.dnd5e.classfeatures.Item.5MwNlVZK7m6VolOH]{Ráfaga de golpes}, @UUID[Compendium.dnd5e.classfeatures.Item.TDglPcxIVEzvVSgK]{Defensa paciente} y @UUID[Compendium.dnd5e.classfeatures.Item.yrSFIGTaQOH2PFRI]{Paso del viento}. Aprenderás más rasgos ki según vayas subiendo de nivel en esta clase.</p><p>Cuando uses un punto de ki, este dejará de estar disponible hasta que termines un descanso corto o largo, al final del cual volverás a reunir el ki en tu interior. Debes estar meditando durante al menos 30 minutos del descanso para poder recuperar los puntos de ki.</p><p>Algunos de tus rasgos ki exigen a tu objetivo hacer una tirada de salvación para resistir sus efectos. La CD para estas tiradas de salvación se calcula de la siguiente forma:</p><p><em><strong>CD tirada de salvación de ki</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</em></p><p><em>**Nota de Foundry: Ten en cuenta que los usos limitados están establecidos por defecto en 2 por descanso corto o largo. Ajústalo manualmente según sea necesario.</em></p>"
+      "description": "<p>A partir de nivel 2, tu entrenamiento te permite controlar la energía mística llamada ki. Tu capacidad de emplearla se representa mediante una serie de puntos de ki. Tu nivel de monje determina cuántos de estos puntos posees. Así, un monje de nivel 2 tendrá 2 puntos de ki y a nivel 16, 16 puntos de ki.</p><p>Puedes utilizar estos puntos para alimentar varios rasgos ki. Empiezas con tres de estos rasgos: Ráfaga de golpes, Defensa paciente y Paso del viento. Aprenderás más rasgos ki según vayas subiendo de nivel en esta clase.</p><p>Cuando uses un punto de ki, este dejará de estar disponible hasta que termines un descanso corto o largo, al final del cual volverás a reunir el ki en tu interior. Debes estar meditando durante al menos 30 minutos del descanso para poder recuperar los puntos de ki.</p><p>Algunos de tus rasgos ki exigen a tu objetivo hacer una tirada de salvación para resistir sus efectos. La CD para estas tiradas de salvación se calcula de la siguiente forma:</p><p><em><strong>CD tirada de salvación de ki</strong> = 8 + tu bonificador por competencia + tu modificador por Sabiduría</em></p><p><em>**Nota de Foundry: Ten en cuenta que los usos limitados están establecidos por defecto en 2 por descanso corto o largo. Ajústalo manualmente según sea necesario.</em></p>"
     },
     "Ki-Empowered Strikes": {
       "name": "Golpes Potenciados con Ki",
@@ -470,7 +455,7 @@
     },
     "Land's Stride": {
       "name": "Paso de la Tierra",
-      "description": "<p>A partir de nivel 8, moverte a través de terreno difícil no mágico no te cuesta movimiento adicional. También puedes pasar a través de plantas no mágicas sin que éstas reduzcan tu velocidad y, aunque dichas plantas posean espinas, pinchos o peligros similares, no recibirás daño de ellas.</p><p>Además, tienes ventaja en las tiradas de salvación contra plantas que han sido creadas o manipuladas mágicamente con el fin de obstaculizar el movimiento, como las producidas por el conjuro @UUID[Compendium.dnd5e.spells.Item.gMrWeG8fMDPRFiVe]{Enmarañar}.</p>"
+      "description": "<p>A partir de nivel 8, moverte a través de terreno difícil no mágico no te cuesta movimiento adicional. También puedes pasar a través de plantas no mágicas sin que éstas reduzcan tu velocidad y, aunque dichas plantas posean espinas, pinchos o peligros similares, no recibirás daño de ellas.</p><p>Además, tienes ventaja en las tiradas de salvación contra plantas que han sido creadas o manipuladas mágicamente con el fin de obstaculizar el movimiento, como las producidas por el conjuro Enmarañar.</p>"
     },
     "Lay on Hands": {
       "name": "Imponer las Manos",
@@ -494,11 +479,11 @@
     },
     "Mask of Many Faces": {
       "name": "Máscara de los Mil Rostros",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{Disfrazarse} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Disfrazarse a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Master of Myriad Forms": {
       "name": "Maestro de las Formas Innumerables",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.8RTDOt80u8aBv9qx]{Alterar el Propio Aspecto} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Alterar el Propio Aspecto a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Metamagic": {
       "name": "Metamagia",
@@ -506,19 +491,19 @@
     },
     "Mindless Rage": {
       "name": "Furia Irracional",
-      "description": "<p>A partir de nivel 6, no puedes ser asustado ni hechizado mientras estés @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Enfurecido}. Si estabas asustado o hechizado antes de enfurecerte, dejarás de estarlo temporalmente, mientras dure la furia.</p>"
+      "description": "<p>A partir de nivel 6, no puedes ser asustado ni hechizado mientras estés Enfurecido. Si estabas asustado o hechizado antes de enfurecerte, dejarás de estarlo temporalmente, mientras dure la furia.</p>"
     },
     "Minions of Chaos": {
       "name": "Esbirros del Caos",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.1LkZvINag7KqBmDR]{Conjurar Elemental} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Conjurar Elemental una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Mire the Mind": {
       "name": "Enfangar la Mente",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.yqUDoxk4x0NWG5Bz]{Ralentizar} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Ralentizar una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Misty Visions": {
       "name": "Visiones Brumosas",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.BrBZdCCrJRIVg7YX]{Imagen Silenciosa} a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
+      "description": "<p>Puedes lanzar Imagen Silenciosa a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
     },
     "Monastic Tradition": {
       "name": "Tradición Monástica",
@@ -558,11 +543,11 @@
     },
     "Open Hand Technique": {
       "name": "Técnica de la Mano Abierta",
-      "description": "<p>A partir del momento en el que escoges esta tradición, a nivel 3, puedes manipular el ki de tus enemigos mientras dominas el tuyo propio.</p><p>Cuando impactas a una criatura con uno de los ataques que te proporciona @UUID[Compendium.dnd5e.classfeatures.Item.5MwNlVZK7m6VolOH]{Ki: Ráfaga de Golpes}, puedes obligarla a sufrir uno de los siguientes efectos:</p><ul><li>Debe superar una tirada de salvación de Destreza o será derribado.</li><li>Ha de hacer una tirada de salvación de Fuerza. Si falla, puedes empujarla hasta 15 pies en dirección contraria a ti.</li><li>No puede realizar reacciones hasta el final de tu siguiente turno.</li></ul>"
+      "description": "<p>A partir del momento en el que escoges esta tradición, a nivel 3, puedes manipular el ki de tus enemigos mientras dominas el tuyo propio.</p><p>Cuando impactas a una criatura con uno de los ataques que te proporciona Ki: Ráfaga de Golpes, puedes obligarla a sufrir uno de los siguientes efectos:</p><ul><li>Debe superar una tirada de salvación de Destreza o será derribado.</li><li>Ha de hacer una tirada de salvación de Fuerza. Si falla, puedes empujarla hasta 15 pies en dirección contraria a ti.</li><li>No puede realizar reacciones hasta el final de tu siguiente turno.</li></ul>"
     },
     "Otherworldly Leap": {
       "name": "Salto Sobrenatural",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h]{Salto} sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
+      "description": "<p>Puedes lanzar Salto sobre ti mismo a voluntad, sin tener que gastar un espacio de conjuro ni componentes materiales.</p>"
     },
     "Otherworldly Patron": {
       "name": "Patrón Sobrenatural",
@@ -586,7 +571,7 @@
     },
     "Pact of the Chain": {
       "name": "Pacto de la Cadena",
-      "description": "<p>Aprendes el conjuro @UUID[Compendium.dnd5e.spells.Item.JGT5bNqu9REL7Fuz]{Encontrar familiar} y puedes lanzarlo como ritual. Este conjuro no cuenta dentro de tu límite de conjuros conocidos. Cuando lo lances, escoge entre una de las formas habituales para un familiar o una de las siguientes formas especiales: @UUID[Compendium.dnd5e.monsters.Actor.dLQiESMsfsXijD5c]{Diablillo}, @UUID[Compendium.dnd5e.monsters.Actor.MUpBNDoJEr09bLaO]{duende}, pseudodragón o @UUID[Compendium.dnd5e.monsters.Actor.bwtkdzavdNHISgp4]{quasit}.</p><p>Además, cuando llevas a cabo la acción de Atacar, puedes renunciar a uno de tus ataques para permitir a tu familiar realizar uno de sus propios ataques utilizando su reacción.</p>"
+      "description": "<p>Aprendes el conjuro Encontrar familiar y puedes lanzarlo como ritual. Este conjuro no cuenta dentro de tu límite de conjuros conocidos. Cuando lo lances, escoge entre una de las formas habituales para un familiar o una de las siguientes formas especiales: Diablillo, duende, pseudodragón o quasit.</p><p>Además, cuando llevas a cabo la acción de Atacar, puedes renunciar a uno de tus ataques para permitir a tu familiar realizar uno de sus propios ataques utilizando su reacción.</p>"
     },
     "Pact of the Tome": {
       "name": "Pacto del Grimorio",
@@ -598,7 +583,7 @@
     },
     "Peerless Skill": {
       "name": "Habilidad sin Parangón",
-      "description": "<p>A partir de nivel 14, cuando hagas una prueba de característica podrás gastar uno de tus usos de @UUID[Compendium.dnd5e.classfeatures.Item.EeGafsa17CapsH2j]{Inspiración Bárdica}.</p><p>Tira el dado de Inspiración Bárdica y suma el número obtenido al resultado de la prueba.</p><p>Puedes elegir hacer esto después de haber hecho la tirada, pero antes de que el DM te diga si tienes éxito o no.</p>"
+      "description": "<p>A partir de nivel 14, cuando hagas una prueba de característica podrás gastar uno de tus usos de Inspiración Bárdica.</p><p>Tira el dado de Inspiración Bárdica y suma el número obtenido al resultado de la prueba.</p><p>Puedes elegir hacer esto después de haber hecho la tirada, pero antes de que el DM te diga si tienes éxito o no.</p>"
     },
     "Perfect Self": {
       "name": "Yo perfecto",
@@ -606,7 +591,7 @@
     },
     "Persistent Rage": {
       "name": "Furia Persistente",
-      "description": "<p>A partir de nivel 15, tu @UUID[Compendium.dnd5e.classfeatures.Item.VoR0SUrNX5EJVPIO]{Furia} es tan violenta que solo terminará antes de tiempo si quedas inconsciente o eliges finalizarla voluntariamente.</p>"
+      "description": "<p>A partir de nivel 15, tu Furia es tan violenta que solo terminará antes de tiempo si quedas inconsciente o eliges finalizarla voluntariamente.</p>"
     },
     "Potent Cantrip": {
       "name": "Truco Potente",
@@ -634,7 +619,7 @@
     },
     "Purity of Spirit": {
       "name": "Pureza de Espíritu",
-      "description": "<p>A partir de nivel 11, estás siempre bajo los efectos de un conjuro de @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{Protección contra el bien y el mal}.</p>"
+      "description": "<p>A partir de nivel 11, estás siempre bajo los efectos de un conjuro de Protección contra el bien y el mal.</p>"
     },
     "Quickened Spell": {
       "name": "Conjuro Acelerado",
@@ -670,7 +655,7 @@
     },
     "Repelling Blast": {
       "name": "Descarga Ahuyentadora",
-      "description": "<p>Cuando impactes a una criatura con tu @UUID[Compendium.dnd5e.spells.Item.Z9p1vezIn95jw1Yw]{Descarga Sobrenatural}, puedes empujarla hasta 10 pies en dirección contraria a ti en línea recta.</p>"
+      "description": "<p>Cuando impactes a una criatura con tu Descarga Sobrenatural, puedes empujarla hasta 10 pies en dirección contraria a ti en línea recta.</p>"
     },
     "Retaliation": {
       "name": "Represalia",
@@ -682,7 +667,7 @@
     },
     "Sacred Oath": {
       "name": "Juramento Sagrado",
-      "description": "<p>Cuando alcanzas el nivel 3 pronuncias el juramento que te atará para siempre a la senda del paladín. Hasta este momento has pasado simplemente por una fase de preparación, comprometido con tu deber, pero sin haber hecho aún el juramento. Ahora debes elegir un juramento, como puede ser el Juramento de Entrega.</p><p>Esta elección te proporciona ciertos rasgos cuando alcanzas los niveles 3, 7, 15 y 20. Entre estos rasgos se encuentran los conjuros de juramento y Canalizar Divinidad.</p><h3>Conjuros de juramento</h3><p>Cada juramento tiene una serie de conjuros asociados. Puedes acceder a estos conjuros cuando llegas a los niveles especificados en la descripción del juramento en cuestión. Una vez accedes a ellos, estos conjuros siempre se considerarán preparados y no cuentan para el total de conjuros que puedes preparar cada día.</p><p>Aunque obtengas un conjuro de juramento que no aparezca en la lista de los de paladín, para ti sí que se considerará como conjuro de paladín.</p><h3>Canalizar Divinidad</h3><p>@UUID[Compendium.dnd5e.classfeatures.Item.8M7uOPhbTxoxxJSo]{Canalizar Divinidad}</p>"
+      "description": "<p>Cuando alcanzas el nivel 3 pronuncias el juramento que te atará para siempre a la senda del paladín. Hasta este momento has pasado simplemente por una fase de preparación, comprometido con tu deber, pero sin haber hecho aún el juramento. Ahora debes elegir un juramento, como puede ser el Juramento de Entrega.</p><p>Esta elección te proporciona ciertos rasgos cuando alcanzas los niveles 3, 7, 15 y 20. Entre estos rasgos se encuentran los conjuros de juramento y Canalizar Divinidad.</p><h3>Conjuros de juramento</h3><p>Cada juramento tiene una serie de conjuros asociados. Puedes acceder a estos conjuros cuando llegas a los niveles especificados en la descripción del juramento en cuestión. Una vez accedes a ellos, estos conjuros siempre se considerarán preparados y no cuentan para el total de conjuros que puedes preparar cada día.</p><p>Aunque obtengas un conjuro de juramento que no aparezca en la lista de los de paladín, para ti sí que se considerará como conjuro de paladín.</p><h3>Canalizar Divinidad</h3><p>Canalizar Divinidad</p>"
     },
     "Sculpt Spells": {
       "name": "Esculpir Conjuros",
@@ -690,7 +675,7 @@
     },
     "Sculptor of Flesh": {
       "name": "Escultor de la Carne",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{Polimorfar} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Polimorfar una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Second Wind": {
       "name": "Tomar Aliento",
@@ -702,7 +687,7 @@
     },
     "Sign of Ill Omen": {
       "name": "Marca del Mal Augurio",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.pO4zGe5LmFIYqJiL]{Imponer Maldición} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Imponer Maldición una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Signature Spells": {
       "name": "Conjuros Característicos",
@@ -738,7 +723,7 @@
     },
     "Spellcasting": {
       "name": "Lanzamiento de Conjuros",
-      "description": "<p>Como canalizador de poder divino, puedes lanzar conjuros de clérigo.</p>\n<h3>Trucos</h3>\n<p>A nivel 1 conoces tres trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo. Podrás elegir más trucos de clérigo cuando llegues a niveles más altos, como se indica en la columna Trucos conocidos de la tabla del clérigo.</p>\n<h3>Preparar y lanzar conjuros</h3>\n<p>La tabla del clérigo muestra de cuántos espacios de conjuro dispones para lanzar conjuros de clérigo de nivel 1 y superiores. Para lanzar uno de estos conjuros deberás invertir un espacio de al menos el nivel del conjuro.</p><p>Recuperas todos los espacios utilizados tras finalizar un descanso largo. Puedes preparar una serie de conjuros, que son los que podrás lanzar, de entre la lista de conjuros de clérigo. Para hacer esto, escoge tantos conjuros de clérigo como tu nivel de clérigo + tu modificador por Sabiduría (como mínimo un conjuro). Estos conjuros deben ser de un nivel para el que tengas espacios.</p><p>De esta forma, si eres un clérigo de nivel 3, tendrás cuatro espacios de nivel 1 y dos espacios de nivel 2. Con una Sabiduría de 16, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Además, si prepararas un conjuro de nivel 1, como Curar heridas, podrías lanzarlo usando un espacio tanto de nivel 1 como de nivel 2. Lanzar un conjuro no hace que desaparezca de tu lista de conjuros preparados.</p><p>Puedes cambiar qué conjuros tienes preparados tras finalizar un descanso largo. Preparar una nueva serie de conjuros precisa de cierto tiempo de estudio y meditación: al menos 1 minuto por cada nivel de cada conjuro que prepares.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td rowspan=\"2\">Nivel</td>\n<td rowspan=\"2\">Trucos conocidos</td>\n<td colspan=\"9\">—Espacios de conjuro por cada nivel de conjuro—</td>\n</tr>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n<td>9</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Aptitud mágica</h3>\n<p>La Sabiduría es tu aptitud mágica en lo que a conjuros de clérigo respecta, ya que el poder de tus conjuros proviene de tu devoción hacia tu dios. Así, utilizarás tu Sabiduría siempre que un conjuro de clérigo haga referencia a tu aptitud mágica. Además, también usarás tu modificador por Sabiduría para determinar la CD de las tiradas de salvación y las tiradas de ataque de los conjuros de clérigo que lances.</p><p><strong>CD tirada de salvación de conjuros</strong>= 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><p><strong>Modificador de ataque de conjuros</strong>&nbsp;= tu bonificador por competencia + tu modificador por Sabiduría</p>\n<h3>Lanzamiento ritual</h3>\n<p>Puedes lanzar de forma ritual aquellos conjuros de clérigo que tengas preparados y estén marcados como ritual.</p>\n<h3>Canalizador mágico</h3>\n<p>Puedes utilizar un símbolo sagrado (mira @UUID[Compendium.dnd5e.rules.JournalEntry.bogWrnJqoNlBd0O8]{Equipo}) como canalizador mágico para los conjuros de clérigo.</p>"
+      "description": "<p>Como canalizador de poder divino, puedes lanzar conjuros de clérigo.</p>\n<h3>Trucos</h3>\n<p>A nivel 1 conoces tres trucos de tu elección escogidos de entre los de la lista de conjuros de clérigo. Podrás elegir más trucos de clérigo cuando llegues a niveles más altos, como se indica en la columna Trucos conocidos de la tabla del clérigo.</p>\n<h3>Preparar y lanzar conjuros</h3>\n<p>La tabla del clérigo muestra de cuántos espacios de conjuro dispones para lanzar conjuros de clérigo de nivel 1 y superiores. Para lanzar uno de estos conjuros deberás invertir un espacio de al menos el nivel del conjuro.</p><p>Recuperas todos los espacios utilizados tras finalizar un descanso largo. Puedes preparar una serie de conjuros, que son los que podrás lanzar, de entre la lista de conjuros de clérigo. Para hacer esto, escoge tantos conjuros de clérigo como tu nivel de clérigo + tu modificador por Sabiduría (como mínimo un conjuro). Estos conjuros deben ser de un nivel para el que tengas espacios.</p><p>De esta forma, si eres un clérigo de nivel 3, tendrás cuatro espacios de nivel 1 y dos espacios de nivel 2. Con una Sabiduría de 16, podrías preparar cualquier combinación de seis conjuros de nivel 1 o 2. Además, si prepararas un conjuro de nivel 1, como Curar heridas, podrías lanzarlo usando un espacio tanto de nivel 1 como de nivel 2. Lanzar un conjuro no hace que desaparezca de tu lista de conjuros preparados.</p><p>Puedes cambiar qué conjuros tienes preparados tras finalizar un descanso largo. Preparar una nueva serie de conjuros precisa de cierto tiempo de estudio y meditación: al menos 1 minuto por cada nivel de cada conjuro que prepares.</p>\n<table border=\"1\">\n<thead>\n<tr>\n<td rowspan=\"2\">Nivel</td>\n<td rowspan=\"2\">Trucos conocidos</td>\n<td colspan=\"9\">—Espacios de conjuro por cada nivel de conjuro—</td>\n</tr>\n<tr>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n<td>5</td>\n<td>6</td>\n<td>7</td>\n<td>8</td>\n<td>9</td>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3</td>\n<td>3</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9</td>\n<td>4</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>20</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>3</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n<h3>Aptitud mágica</h3>\n<p>La Sabiduría es tu aptitud mágica en lo que a conjuros de clérigo respecta, ya que el poder de tus conjuros proviene de tu devoción hacia tu dios. Así, utilizarás tu Sabiduría siempre que un conjuro de clérigo haga referencia a tu aptitud mágica. Además, también usarás tu modificador por Sabiduría para determinar la CD de las tiradas de salvación y las tiradas de ataque de los conjuros de clérigo que lances.</p><p><strong>CD tirada de salvación de conjuros</strong>= 8 + tu bonificador por competencia + tu modificador por Sabiduría</p><p><strong>Modificador de ataque de conjuros</strong>&nbsp;= tu bonificador por competencia + tu modificador por Sabiduría</p>\n<h3>Lanzamiento ritual</h3>\n<p>Puedes lanzar de forma ritual aquellos conjuros de clérigo que tengas preparados y estén marcados como ritual.</p>\n<h3>Canalizador mágico</h3>\n<p>Puedes utilizar un símbolo sagrado (mira Equipo) como canalizador mágico para los conjuros de clérigo.</p>"
     },
     "Stand Against the Tide": {
       "name": "Aguantar la Marea",
@@ -774,11 +759,11 @@
     },
     "Superior Hunter's Defense": {
       "name": "Defensa de Cazador Experto",
-      "description": "<p>A nivel 15 obtienes uno de los siguientes rasgos, a tu elección.</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.Xf763cJoDHPPWSGG]{Aguantar la Marea}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.7pyZjz5vlUWV01qQ]{Esquiva Asombrosa}</p><p>@UUID[Compendium.dnd5e.classfeatures.Item.laVHAIOKIsUeezWd]{Evasión}</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
+      "description": "<p>A nivel 15 obtienes uno de los siguientes rasgos, a tu elección.</p><p>Aguantar la Marea</p><p>Esquiva Asombrosa</p><p>Evasión</p><p>Puedes arrastrar tu elección a la hoja de personaje y se actualizará automáticamente.</p>"
     },
     "Superior Inspiration": {
       "name": "Inspiración Superior",
-      "description": "<p>A partir de nivel 20, si cuando tiras iniciativa no te quedan usos de @UUID[Compendium.dnd5e.classfeatures.Item.EeGafsa17CapsH2j]{Inspiración Bárdica}, recuperas uno de ellos.</p>"
+      "description": "<p>A partir de nivel 20, si cuando tiras iniciativa no te quedan usos de Inspiración Bárdica, recuperas uno de ellos.</p>"
     },
     "Supreme Healing": {
       "name": "Sanación Suprema",
@@ -794,7 +779,7 @@
     },
     "Thief of Five Fates": {
       "name": "Ladrón de los Cinco Destinos",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.95K2aUhAGV9qXjnf]{Perdición} una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
+      "description": "<p>Puedes lanzar Perdición una vez mediante un espacio de conjuro de brujo. No podrás volver a hacerlo hasta que finalices un descanso largo.</p>"
     },
     "Thief's Reflexes": {
       "name": "Reflejos de Ladrón",
@@ -818,11 +803,11 @@
     },
     "Tranquility": {
       "name": "Tranquilidad",
-      "description": "<p>A partir de nivel 11, puedes iniciar una meditación especial que te rodea de un aura de paz. Al terminar un descanso largo obtienes los beneficios equivalentes a un conjuro @UUID[Compendium.dnd5e.spells.Item.gvdA9nPuWLck4tBl]{Santuario} que dura hasta el comienzo de tu siguiente descanso largo. El conjuro puede terminar antes de tiempo de forma normal. La CD de la tirada de salvación del conjuro es de 8 + tu modificador por Sabiduría + tu bonificador por competencia.</p>"
+      "description": "<p>A partir de nivel 11, puedes iniciar una meditación especial que te rodea de un aura de paz. Al terminar un descanso largo obtienes los beneficios equivalentes a un conjuro Santuario que dura hasta el comienzo de tu siguiente descanso largo. El conjuro puede terminar antes de tiempo de forma normal. La CD de la tirada de salvación del conjuro es de 8 + tu modificador por Sabiduría + tu bonificador por competencia.</p>"
     },
     "Twinned Spell": {
       "name": "Conjuro Gemelo",
-      "description": "<p>Cuando lanzas un conjuro que tiene como objetivo a una sola criatura y no posee un alcance de lanzador, puedes gastar tantos puntos de hechicería como el nivel del conjuro para hacer objetivo del mismo conjuro a una segunda criatura dentro del alcance (1 punto de hechicería si el conjuro es un truco).</p><p>Para que un conjuro pueda beneficiarse de esta opción, este debe ser incapaz de hacer objetivo a más de una criatura al nivel al que lo lanzas. Por ejemplo, @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{Proyectil Mágico} y @UUID[Compendium.dnd5e.spells.Item.7u2obDvuvtZBkTfq]{Rayo Abrasador} no cumplen esta condición, pero @UUID[Compendium.dnd5e.spells.Item.ctW81uiX56xZR2c5]{Rayo de Escarcha} sí lo hace.</p>"
+      "description": "<p>Cuando lanzas un conjuro que tiene como objetivo a una sola criatura y no posee un alcance de lanzador, puedes gastar tantos puntos de hechicería como el nivel del conjuro para hacer objetivo del mismo conjuro a una segunda criatura dentro del alcance (1 punto de hechicería si el conjuro es un truco).</p><p>Para que un conjuro pueda beneficiarse de esta opción, este debe ser incapaz de hacer objetivo a más de una criatura al nivel al que lo lanzas. Por ejemplo, Proyectil Mágico y Rayo Abrasador no cumplen esta condición, pero Rayo de Escarcha sí lo hace.</p>"
     },
     "Two-Weapon Fighting": {
       "name": "Combate con Dos Armas",
@@ -858,7 +843,7 @@
     },
     "Visions of Distant Realms": {
       "name": "Visiones de Reinos Remotos",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.ImlCJQwR1VL40Qem]{Ojo Arcano} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Ojo Arcano a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Voice of the Chain Master": {
       "name": "Voz del Amo de la Cadena",
@@ -874,7 +859,7 @@
     },
     "Whispers of the Grave": {
       "name": "Susurros del Sepulcro",
-      "description": "<p>Puedes lanzar @UUID[Compendium.dnd5e.spells.Item.I2LUSF5ogc7Bj62e]{Hablar con los Muertos} a voluntad, sin tener que gastar un espacio de conjuro.</p>"
+      "description": "<p>Puedes lanzar Hablar con los Muertos a voluntad, sin tener que gastar un espacio de conjuro.</p>"
     },
     "Wholeness of Body": {
       "name": "Plenitud de Cuerpo",
@@ -882,7 +867,7 @@
     },
     "Wild Shape": {
       "name": "Forma Salvaje",
-      "description": "<p>A partir de nivel 2, puedes usar tu acción para, mediante la magia, adoptar la forma de una bestia que hayas vista antes. Puedes emplear este rasgo dos veces. Recuperas todos los usos tras hacer un descanso corto o largo.</p><p>Tu nivel de druida determina aquellas bestias en las que te puedes transformar, tal y como indica la tabla Formas de bestia. Por ejemplo, a nivel 2 puedes adoptar la forma de cualquier bestia que tenga un valor de desafío de 1/4 o menos y que no posea velocidades nadando ni volando.</p><h4><strong>Formas de bestia</strong></h4><table border=\"1\"><tbody><tr><td><strong>Nivel</strong></td><td><strong>VD máx.</strong></td><td><strong>Limitaciones</strong></td><td><strong>Ejemplo</strong></td></tr><tr><td>2</td><td>1/4</td><td>Sin velocidades nadando ni volando</td><td>@UUID[Compendium.dnd5e.monsters.Actor.yawTeS8u2FCfzzZH]{Lobo}</td></tr><tr><td>4</td><td>1/2</td><td>Sin velocidad volando</td><td>@UUID[Compendium.dnd5e.monsters.Actor.8aCTKP5qaBPFOqxM]{Cocodrilo}</td></tr><tr><td>8</td><td>1</td><td>--</td><td>@UUID[Compendium.dnd5e.monsters.Actor.DBCCRXiLn6mIS8hX]{Águila gigante}</td></tr></tbody></table><p>Puedes permanecer en forma de bestia tantas horas como la mitad de tu nivel de druida (redondeando hacia abajo). Pasado este tiempo volverás a asumir tu forma normal, salvo si gastas otro uso de este rasgo. Si lo deseas, también puedes retornar a tu forma normal antes de que pase este tiempo, utilizando una acción adicional durante tu turno. Además, también vuelves a tu forma normal si quedas inconsciente, tus puntos de golpe se reducen a 0 o mueres.</p><p>Mientras estés transformado, se te aplican las siguientes reglas:</p><ul><li><p>Tu perfil queda reemplazado por el de la criatura, excepto tu alineamiento, tu personalidad y tus puntuaciones de Inteligencia, Sabiduría y Carisma. También conservas todas tus competencias en habilidades y tiradas de salvación, además de ganar las que tenga la criatura. Si tiene las mismas competencias que tú y el bonificador que aparece en su perfil es mayor que el tuyo, utiliza el de la criatura. Si a criatura posee alguna acción legendaria o acción en guarida, no podrás usarlas.</p></li><li><p>Cuando te transformas, pasas a tener los puntos de golpe y Dados de Golpe de la nueva forma. Cuando reviertas a tu forma normal, vuelves a tener los puntos de golpe que poseyeras antes de la transformación. Sin embargo, si la transformación se rompiera al quedar reducido a 0 puntos de golpe, cualquier daño sobrante se aplicaría a tu forma normal. Así, si recibes 10 de daño en tu forma animal y solo te queda 1 punto de golpe, volverás a tu forma normal y sufrirás 9 de daño. Si este daño sobrante no reduce tu forma normal a 0 puntos de golpe, no caerás inconsciente.</p></li><li><p>No puedes lanzar conjuros y tu capacidad para hablar o llevar a cabo cualquier acción que requiera del uso de las manos queda limitada por las capacidades de tu forma de bestia. Transformarse no rompe la concentración en un conjuro que ya hubieras lanzado, ni te impide realizar acciones que son parte de un conjuro, como las de un&nbsp;llamar al relámpago que ya hayas lanzado.</p></li><li><p>Mantienes los beneficios de cualquier rasgo de tu clase, raza u otra fuente y podrás usarlos, siempre y cuando tu nueva forma sea físicamente capaz de ello. Sin embargo, no podrás utilizar ningún sentido especial que tengas (como visión en la oscuridad) a menos que tu nueva forma también lo posea.</p></li><li><p>Cuando te transformas, eliges si tu equipo cae al suelo en un espacio, se funde con la nueva forma o lo sigues llevando puesto. El equipo que portes funciona con normalidad, pero el DM determinar a si es factible que la nueva forma pueda llevar un objeto de equipo concreto, basándose en la forma y tamaño de la criatura. Tu equipo no cambia de forma o tamaño para adaptarse a la nueva forma y cualquier equipo que esta no pueda llevar deberá caer al suelo o fundirse con la nueva forma. El equipo que se funda con la forma no tendrá efecto alguno hasta que la abandones.</p></li></ul>"
+      "description": "<p>A partir de nivel 2, puedes usar tu acción para, mediante la magia, adoptar la forma de una bestia que hayas vista antes. Puedes emplear este rasgo dos veces. Recuperas todos los usos tras hacer un descanso corto o largo.</p><p>Tu nivel de druida determina aquellas bestias en las que te puedes transformar, tal y como indica la tabla Formas de bestia. Por ejemplo, a nivel 2 puedes adoptar la forma de cualquier bestia que tenga un valor de desafío de 1/4 o menos y que no posea velocidades nadando ni volando.</p><h4><strong>Formas de bestia</strong></h4><table border=\"1\"><tbody><tr><td><strong>Nivel</strong></td><td><strong>VD máx.</strong></td><td><strong>Limitaciones</strong></td><td><strong>Ejemplo</strong></td></tr><tr><td>2</td><td>1/4</td><td>Sin velocidades nadando ni volando</td><td>Lobo</td></tr><tr><td>4</td><td>1/2</td><td>Sin velocidad volando</td><td>Cocodrilo</td></tr><tr><td>8</td><td>1</td><td>--</td><td>Águila gigante</td></tr></tbody></table><p>Puedes permanecer en forma de bestia tantas horas como la mitad de tu nivel de druida (redondeando hacia abajo). Pasado este tiempo volverás a asumir tu forma normal, salvo si gastas otro uso de este rasgo. Si lo deseas, también puedes retornar a tu forma normal antes de que pase este tiempo, utilizando una acción adicional durante tu turno. Además, también vuelves a tu forma normal si quedas inconsciente, tus puntos de golpe se reducen a 0 o mueres.</p><p>Mientras estés transformado, se te aplican las siguientes reglas:</p><ul><li><p>Tu perfil queda reemplazado por el de la criatura, excepto tu alineamiento, tu personalidad y tus puntuaciones de Inteligencia, Sabiduría y Carisma. También conservas todas tus competencias en habilidades y tiradas de salvación, además de ganar las que tenga la criatura. Si tiene las mismas competencias que tú y el bonificador que aparece en su perfil es mayor que el tuyo, utiliza el de la criatura. Si a criatura posee alguna acción legendaria o acción en guarida, no podrás usarlas.</p></li><li><p>Cuando te transformas, pasas a tener los puntos de golpe y Dados de Golpe de la nueva forma. Cuando reviertas a tu forma normal, vuelves a tener los puntos de golpe que poseyeras antes de la transformación. Sin embargo, si la transformación se rompiera al quedar reducido a 0 puntos de golpe, cualquier daño sobrante se aplicaría a tu forma normal. Así, si recibes 10 de daño en tu forma animal y solo te queda 1 punto de golpe, volverás a tu forma normal y sufrirás 9 de daño. Si este daño sobrante no reduce tu forma normal a 0 puntos de golpe, no caerás inconsciente.</p></li><li><p>No puedes lanzar conjuros y tu capacidad para hablar o llevar a cabo cualquier acción que requiera del uso de las manos queda limitada por las capacidades de tu forma de bestia. Transformarse no rompe la concentración en un conjuro que ya hubieras lanzado, ni te impide realizar acciones que son parte de un conjuro, como las de un&nbsp;llamar al relámpago que ya hayas lanzado.</p></li><li><p>Mantienes los beneficios de cualquier rasgo de tu clase, raza u otra fuente y podrás usarlos, siempre y cuando tu nueva forma sea físicamente capaz de ello. Sin embargo, no podrás utilizar ningún sentido especial que tengas (como visión en la oscuridad) a menos que tu nueva forma también lo posea.</p></li><li><p>Cuando te transformas, eliges si tu equipo cae al suelo en un espacio, se funde con la nueva forma o lo sigues llevando puesto. El equipo que portes funciona con normalidad, pero el DM determinar a si es factible que la nueva forma pueda llevar un objeto de equipo concreto, basándose en la forma y tamaño de la criatura. Tu equipo no cambia de forma o tamaño para adaptarse a la nueva forma y cualquier equipo que esta no pueda llevar deberá caer al suelo o fundirse con la nueva forma. El equipo que se funda con la forma no tendrá efecto alguno hasta que la abandones.</p></li></ul>"
     },
     "Witch Sight": {
       "name": "Visión Bruja",
