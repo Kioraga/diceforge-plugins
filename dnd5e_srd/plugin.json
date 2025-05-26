@@ -1,6 +1,6 @@
 {
   "id": "dnd5e_srd",
-  "name": "D&D 5e System Reference Document",
+  "name": "D&D 5e SRD",
   "version": "1.0.0",
   "description": "Contenido oficial gratuito de Dungeons & Dragons 5a Edición según el System Reference Document.",
   "author": "Kioraga",
@@ -9,5 +9,11 @@
   "priority": 0,
   "enabled": true,
   "compendium": {
+    "backgrounds": "backgrounds.json",
+    "class_features": "class_features.json",
+    "classes": "classes.json",
+    "races" : "races.json",
+    "spells": "spells.json",
+    "subclasses": "subclasses.json"
   }
 }
