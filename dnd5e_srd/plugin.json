@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "description": "Contenido oficial gratuito de Dungeons & Dragons 5a Edición según el System Reference Document.",
   "author": "Kioraga",
-  "dnd_version": "5e",
   "dependencies": [],
   "priority": 0,
   "enabled": true,
