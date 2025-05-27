@@ -11,7 +11,8 @@
     "backgrounds": "backgrounds.json",
     "class_features": "class_features.json",
     "classes": "classes.json",
-    "races" : "races.json",
+    "race_features": "race_features.json",
+    "races": "races.json",
     "spells": "spells.json",
     "subclasses": "subclasses.json"
   }
